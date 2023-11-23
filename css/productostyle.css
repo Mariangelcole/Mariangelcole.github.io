@@ -1,0 +1,82 @@
+.caja1{grid-area: title;}
+.caja2{grid-area: menu;}
+.caja3{grid-area: text;}
+.caja4{grid-area: img1;}
+.caja5{grid-area: img2;}
+.caja6{grid-area: img3;}
+.caja7{grid-area: img4;}
+.caja8{grid-area: footer;}
+
+.container{
+	display: grid;
+	grid-template-areas: 'title title title menu'
+	                     'text text text text'
+	                     'img1 img2 img3 img4'
+	                     'footer footer footer footer';
+
+
+	background-color: white;
+	grid-gap: 10px;
+	padding: 10px;
+}
+.container div{
+	text-align: center;
+	padding: 20px;
+	font-size: 30px;
+}
+.caja1{
+	background-color: black;
+	font-family: 'Lexend', sans-serif;
+	color: white;
+	text-align: left;
+}
+.caja2{
+	background-color: black;
+	color: white;
+	font-family: 'Fragment Mono', monospace;
+	text-align: left;
+	font-size: 15px;
+}
+.caja3{
+	background-color: white;
+	font-family: 'Fragment Mono', monospace;
+	color: black;
+}
+.caja4{
+	font-family: 'Fragment Mono', monospace;
+	color: black;
+}
+.img1{
+	width: 15vw;
+}
+.caja5{
+	font-family: 'Fragment Mono', monospace;
+	color: black;
+
+}
+.img2{
+	width: 15vw;
+}
+.caja6{
+	font-family: 'Fragment Mono', monospace;
+	color: black;
+}
+.img3{
+	width: 15vw;
+}
+.caja7{
+	font-family: 'Fragment Mono', monospace;
+	color: black;
+}
+.img4{
+	width: 15vw;
+}
+
+.caja8{
+	background-color: black;
+	font-family: 'Fragment Mono', monospace;
+	color: white;
+	text-align: left;
+
+}
+
